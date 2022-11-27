@@ -1,0 +1,80 @@
+.submit{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    margin-top: 9px ;
+    margin-right: 10px ;
+}
+body {
+    background: url(./Sources/are-ya-winning-son.jpg) no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 75%;
+}
+.modal-dialog_modal-sm{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+    outline: 4px solid black;
+background: rgba(255, 255, 255, 0.5); 
+}
+.modal-header-h2{
+    font-family:'Russo One';
+    color: black;
+}
+.submit1{
+    margin-top: 80px;
+}
+.modal-header-h2{
+    margin-top: 35px;
+}
+.close{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: rgb(0, 0, 0);
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.container-fluid {
+    position: relative;
+    display: flex;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+.navbar-brand{
+    margin: 50px 20px 50px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2.0em;
+}
+.text1{
+    margin-top: 10px;
+    margin-left: 1350px;
+}
+.Heisenberg{
+    position: relative;
+    cursor: pointer;
+}
