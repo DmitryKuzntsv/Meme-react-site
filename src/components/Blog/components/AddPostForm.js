@@ -38,8 +38,8 @@ render(){
                       placeholder="Заголовок поста"
                       name="email"
                       className="placeholderForm1"
-                      value = {}
-                      onChange = { handlePostTitleChange}
+
+                      
                       required
                       />
                       <input
@@ -47,11 +47,11 @@ render(){
                        placeholder="Текст поста"
                        name="parol"
                        className="placeholderForm2"
-                       value = {}
-                       onChange = { handlePostDescriptionChange}
+                       
+                     
                        required
                     />
-                    <button className="submit" type="submit" onClick={ createPost}> Добавить</button>
+                    <button className="submit" type="submit"  > Добавить</button>
                 </div>
             </div>
         </div>

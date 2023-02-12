@@ -1,0 +1,28 @@
+
+.App-header {
+    height: 100px;
+    background-color: #282c34;
+   
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+.menu{
+
+    font-size: 34px;
+    margin-left: 60px;
+    position: relative;
+    color: white
+  }
+  .welcome{
+    
+  font-size: 34px;
+    margin-left: 60px;
+    position: relative;
+    color: white
+   
+  }
